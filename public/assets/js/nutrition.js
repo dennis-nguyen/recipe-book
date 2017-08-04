@@ -1,3 +1,4 @@
+// nutrition graph, Macro
 let nutrition = document.getElementById('nutrition').getContext('2d');
 let nutritionArray = document.getElementById('nutritionDiv').getAttribute("data-nutrition");
 let nutritionChart = new Chart(nutrition, {
@@ -17,7 +18,7 @@ let nutritionChart = new Chart(nutrition, {
     }
   }
 });
-
+// nutrition graph, Vitamins
 let nutrition2 = document.getElementById('nutrition2').getContext('2d');
 let nutritionArray2 = document.getElementById('nutritionDiv2').getAttribute("data-nutrition2");
 let nutritionChart2 = new Chart(nutrition2, {

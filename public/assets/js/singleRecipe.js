@@ -15,12 +15,8 @@ $(document).ready(function () {
         }
     };
 
-    $("#add_row").click(function () {
-        makeRows();
-    });
-
-    $("#delete_row").click(function () {
-        deleteRows();
-    });
+   // Click handlers
+   $("#add_row").on("click",makeRows);
+   $("#delete_row").on("click",deleteRows);
 
 });

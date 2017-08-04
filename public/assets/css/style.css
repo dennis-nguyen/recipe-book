@@ -4,7 +4,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Arvo', serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .title-white {
@@ -147,8 +147,7 @@ body {
 .instructionBox,
 .notesBox,
 .nutritionBox,
-.ingredientBox,
-.titleBox {
+.ingredientBox {
     background-color: white;
     border: 1px solid #e3e3e3;
 }

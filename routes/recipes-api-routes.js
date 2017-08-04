@@ -22,7 +22,6 @@ module.exports = function (app) {
                 homePage: true
             };
             addUserToHbsObj(req, hbsObject);
-            console.log(hbsObject);
             res.render('home', hbsObject);
         });
     });
@@ -55,14 +54,11 @@ module.exports = function (app) {
                         }
                     });
                 });
-                // matchArray.push(req.user);
                 let hbsObject = {
                     recipe: matchArray
                 };
 
                 addUserToHbsObj(req, hbsObject);
-                console.log(hbsObject);
-                // res.json(hbsObject);
                 res.render('home', hbsObject);
             });
     });
@@ -203,12 +199,10 @@ let createIngredients = (data, ingredient, measurement, req, res) => {
         RecipeId: data.dataValues.id,
         ingredientName: ingredient
     }).then((data) => {
-        // console.log(data);
         db.Measurements.create({
             IngredientId: data.dataValues.id,
             measurement: measurement
         }).then(function (recipesDB) {
-            // res.redirect('/recipes');
         });
     });
 };

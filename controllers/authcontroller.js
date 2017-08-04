@@ -11,7 +11,6 @@ exports.signin = function(req,res){
 
 exports.home = function(req,res){
 	let userInfo = req.user;
-  // res.render('home', {});
   res.redirect('/');
 };
 
