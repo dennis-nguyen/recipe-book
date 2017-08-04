@@ -1,8 +1,8 @@
-Recipe-Book
+Cookbook
 ===============
 
 ### Summary
-The goal of the **Recipe Book** was to provide people with an easy and straight forward way to save and share their recipes. This web app allows you to quickly fill out your recipe and share it in minutes. We wanted to focus on an easy to use interface. Create an account and start posting your recipes. The web app will then use an API to analyze the recipe and provide the nutritional details of the recipe.
+The goal of the **Cookbook** was to provide people with an easy and straight forward way to save and share their recipes. This web app allows you to quickly fill out your recipe and share it in minutes. We wanted to focus on an easy to use interface. Create an account and start posting your recipes. The web app will then use an API to analyze the recipe and provide the nutritional details of the recipe.
 
 ### Developers
 - Team: 
