@@ -27,5 +27,5 @@ The goal of the **Cookbook** was to provide people with an easy and straight for
 - CSS
 - Twitter Bootstrap
 
-### APIs
+### API
 - Nutrition Analysis API by Edamam
